@@ -1,0 +1,146 @@
+/******************************************************************
+Project Name: Educafe LMS;
+Designer / Developer Name: Mr. X;
+Clinet Name: Mr.Y;
+Project Start Date: 11-04-2021;
+Project Submission Date: 15-04-21;
+Project Page : 7;
+--------------------------------------------------------------------
+		Home Page
+	-----------------
+	1.TopBar
+	2.Navbar
+	3.Slider
+	4.AboutUS
+	5.Courses
+	6.Facts
+	7.RecentNews
+	8.Testimoinal
+	9.CTA
+	10.Footer
+----------------------------------------------------------------------
+***********************************************************************/
+
+
+/*Google Font CDN Open Sans*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+/***************************************************************************
+			Base CSS Start
+****************************************************************************/
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif !important;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+/***************************************************************************
+			Base CSS End
+****************************************************************************/
+/***************************************************************************
+			Common CSS Start
+****************************************************************************/
+.primary-bg{
+	background-color: #56ab2f !important;
+}
+.secondary-bg{
+	background-color: #000022 !important;
+}
+.primary-color{
+	color: #56ab2f !important;
+}
+.secondary-color{
+	color: #000022 !important;
+}
+.primary-btn{
+	background-color: #56ab2f !important;
+	border: 1px solid #56ab2f !important;
+	color: #f1f1f1 !important;
+}
+.primary-btn:hover{
+	background-color: #ff4f81 !important;
+	color: #fff !important;
+	border: 1px solid #ff4f81 !important;
+}
+.secondary-btn{
+	background-color: transparent !important;
+	color: #000022 !important;
+	border: 1px solid #56ab2f !important;
+}
+.secondary-btn:hover{
+	background-color: #ff4f81 !important;
+	color: #fff !important;
+	border: 1px solid #ff4f81 !important;
+}
+/***************************************************************************
+			Common CSS End
+****************************************************************************/
+/***************************************************************************
+			Topbar CSS Start
+****************************************************************************/
+.topbar{
+	height: 49px;
+	line-height: 49px;
+}
+.topbar-left li{
+	font-size: 14px;
+	padding-left: 20px;
+}
+.topbar-left li:first-child{
+	padding: 0;
+}
+.topbar-right li{
+	font-size: 14px;
+}
+.topbar-right li:first-child::after{
+	content: "|";
+	color: #000022;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/***************************************************************************
+			Topbar CSS End
+****************************************************************************/
+/***************************************************************************
+			Navbar CSS Start
+****************************************************************************/
+.margin-left-5{
+	margin-left: -5px;
+	font-size: 10px;
+}
+.nav-link{
+	font-weight: bold;
+	color: #000022 !important;
+}
+.nav-link:focus{
+	color: #56ab2f !important;
+}
+.active .nav-link{
+	color: #56ab2f !important;
+}
+/***************************************************************************
+			Navbar CSS End
+****************************************************************************/
+/***************************************************************************
+			Slider CSS Start
+****************************************************************************/
+.slide-position-absolute{
+	position: absolute;
+	left: 55%;
+	top: 40%;
+}
+/***************************************************************************
+			Slider CSS End
+****************************************************************************/
