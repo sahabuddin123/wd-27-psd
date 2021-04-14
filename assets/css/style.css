@@ -83,8 +83,42 @@ ul{
 	color: #fff !important;
 	border: 1px solid #ff4f81 !important;
 }
+.card-hover:hover{
+	border-color:  #56ab2f !important;
+}
 /***************************************************************************
 			Common CSS End
+****************************************************************************/
+/***************************************************************************
+			Owl Carsoul CSS Start
+****************************************************************************/
+.owl-carousel .owl-nav button.owl-next,
+ .owl-carousel .owl-nav button.owl-prev{
+    background-color: transparent;
+    position: absolute;
+    top: 40%;
+    font-size: 45px;
+    color: #000022;
+}
+.owl-carousel .owl-nav button.owl-next{
+	right: -5%;
+}
+
+ .owl-carousel .owl-nav button.owl-prev{
+    left: -5%;
+}
+.owl-carousel .owl-nav button.owl-next:hover,
+ .owl-carousel .owl-nav button.owl-prev:hover{
+    background-color: transparent;
+    color: #56ab2f !important;
+}
+.owl-carousel .owl-nav button.owl-next:focus,
+ .owl-carousel .owl-nav button.owl-prev:focus{
+    background-color: transparent;
+    outline: none;
+}
+/***************************************************************************
+			Owl Carsoul CSS End
 ****************************************************************************/
 /***************************************************************************
 			Topbar CSS Start
@@ -143,4 +177,50 @@ ul{
 }
 /***************************************************************************
 			Slider CSS End
+****************************************************************************/
+/***************************************************************************
+			AboutUS CSS Start
+****************************************************************************/
+.word-space-10{
+	word-spacing: 10px !important;
+}
+.line-height-30{
+	line-height: 30px !important; 
+}
+.background-academy{
+	background: url('../img/academy/academy.png');
+}
+.principle{
+	max-height: 300px;
+	max-width: 300px;
+	margin-left: -100px;
+	margin-top: 60px;
+	margin-bottom: -30px;
+}
+/***************************************************************************
+			AboutUS CSS End
+****************************************************************************/
+/***************************************************************************
+			Courses CSS Start
+****************************************************************************/
+.line{
+	width: 120px;
+	border-bottom: 2px solid #cfcfcf;
+	position: relative;
+	left: 33%;
+}
+
+/***************************************************************************
+			Courses CSS End
+****************************************************************************/
+/***************************************************************************
+			Facts CSS Start
+****************************************************************************/
+.facts{
+	background: url('../img/facts/facts.png');
+	background-attachment: fixed;
+}
+
+/***************************************************************************
+			Facts CSS End
 ****************************************************************************/
