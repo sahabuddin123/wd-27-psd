@@ -224,3 +224,62 @@ ul{
 /***************************************************************************
 			Facts CSS End
 ****************************************************************************/
+
+.testimonial{
+	background: url('../img/testimonial/bg.png');
+}
+.testimonial-img{
+	max-width: 120px !important;
+	max-height: 120px !important;
+	margin: 0px auto !important;
+	margin-bottom: -15% !important;
+}
+.testimonial-border{
+	border: 30px solid transparent;
+	border-image: url('../img/testimonial/border-imgae.png') 50% round;
+	border-top: none;
+}
+
+
+
+::placeholder{
+color: #f1f1f1;
+}
+.cta-email{
+	height: 40px;
+    width: 30%;
+    border: 1px solid #f1f1f1;
+    background: transparent;
+    outline: none;
+    padding-left: 10px;
+}
+
+.cta-btn{
+	outline: 2px solid rgba(255,255,255,.5);
+}
+
+.footer{
+	background: #1e1d1d;
+}
+.line-height-30 li{
+	line-height: 35px;
+}
+.footer-bottom{
+	border-top: 2px solid  #56ab2f !important;
+}
+.footer-icon li{
+	margin-left: 10px;
+	height: 35px;
+	width: 35px;
+	line-height: 35px;
+	background: transparent;
+	border-radius: 50%;
+	border:1px solid #f1f1f1;
+}
+.footer-icon li a{
+	padding: 5px;
+	color: #f1f1f1;
+}
+.footer-icon li:hover a{
+	color:#56ab2f;
+}
